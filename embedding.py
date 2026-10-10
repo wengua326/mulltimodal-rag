@@ -2,7 +2,7 @@
 from langchain_community.vectorstores import Chroma
 # 2. 内存存储库
 from langchain_classic.storage import LocalFileStore
-# 4. OpenAI
+# 4. gemini
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 # 5. MultiVectorRetriever
 from langchain_classic.retrievers.multi_vector import MultiVectorRetriever
