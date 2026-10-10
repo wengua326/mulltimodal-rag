@@ -25,7 +25,7 @@ set_debug(True)
 
 
 st.set_page_config(page_title = 'Model', layout= 'wide')
-st.title('Agentic Multimodal Rag System')
+st.title('Multimodal Rag System')
 
 def is_valid_image(data: bytes) -> bool:
     try:
