@@ -18,12 +18,6 @@ from langchain.tools import tool
 from langchain.agents import create_agent
 from langchain_community.tools.tavily_search import TavilySearchResults
 
-from langchain_core.globals import set_debug
-
-
-set_debug(True)
-
-
 st.set_page_config(page_title = 'Model', layout= 'wide')
 st.title('Multimodal Rag System')
 
