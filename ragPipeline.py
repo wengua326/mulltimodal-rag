@@ -1,10 +1,6 @@
 from dotenv import load_dotenv
 load_dotenv()
-from langchain_core.runnables import RunnableLambda , RunnablePassthrough
-from langchain_core.messages import SystemMessage , HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI,HarmCategory, HarmBlockThreshold
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 from base64 import b64decode
 import embedding as emb
 import pickle 
@@ -12,7 +8,6 @@ import pickle
 import streamlit as st #webdevelopment
 from PIL import Image
 import io
-import base64
 
 from langchain.tools import tool
 from langchain.agents import create_agent
