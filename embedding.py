@@ -4,7 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_classic.storage import LocalFileStore
 # 4. OpenAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-# 5. 多向量超级管理员
+# 5. MultiVectorRetriever
 from langchain_classic.retrievers.multi_vector import MultiVectorRetriever
 
 vectorstore = Chroma (collection_name='multi_modal_rag',
